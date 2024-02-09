@@ -18,6 +18,7 @@
 		601F9F912B518766009379AF /* ImageFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601F9F902B518766009379AF /* ImageFeedUITests.swift */; };
 		601F9F932B518766009379AF /* ImageFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601F9F922B518766009379AF /* ImageFeedUITestsLaunchTests.swift */; };
 		605656942B63FD9600A164F2 /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605656932B63FD9600A164F2 /* ImagesListCell.swift */; };
+		6096CDAE2B6CCC6300103AF1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6096CDAD2B6CCC6300103AF1 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		601F9F902B518766009379AF /* ImageFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedUITests.swift; sourceTree = "<group>"; };
 		601F9F922B518766009379AF /* ImageFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		605656932B63FD9600A164F2 /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
+		6096CDAD2B6CCC6300103AF1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		601F9F6B2B518764009379AF /* ImageFeed */ = {
 			isa = PBXGroup;
 			children = (
+				6096CDAC2B6CCC2800103AF1 /* Profile */,
 				605656952B63FDC500A164F2 /* ImagesList */,
 				601F9F6C2B518764009379AF /* AppDelegate.swift */,
 				601F9F6E2B518764009379AF /* SceneDelegate.swift */,
@@ -139,6 +142,14 @@
 				605656932B63FD9600A164F2 /* ImagesListCell.swift */,
 			);
 			path = ImagesList;
+			sourceTree = "<group>";
+		};
+		6096CDAC2B6CCC2800103AF1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6096CDAD2B6CCC6300103AF1 /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6096CDAE2B6CCC6300103AF1 /* ProfileViewController.swift in Sources */,
 				601F9F712B518764009379AF /* ImagesListViewController.swift in Sources */,
 				601F9F772B518764009379AF /* ImageFeed.xcdatamodeld in Sources */,
 				605656942B63FD9600A164F2 /* ImagesListCell.swift in Sources */,
